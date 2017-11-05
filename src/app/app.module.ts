@@ -13,7 +13,11 @@ import { CertificatesComponent } from './components/certificates/certificates.co
 
 // Route list
 const appRoutes: Routes = [
-  { path: '', component: AboutComponent }
+  { path: '/', component: AboutComponent },
+  { path: '/skills', component: SkillsComponent },
+  { path: '/experience', component: ExperienceComponent },
+  { path: '/education', component: EducationComponent },
+  { path: '/certificates', component: CertificatesComponent }
 ];
 
 @NgModule({
