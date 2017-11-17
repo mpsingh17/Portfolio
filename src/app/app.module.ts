@@ -13,6 +13,9 @@ import { CertificatesComponent } from './components/certificates/certificates.co
 import { ProjectListComponent } from './components/project-list/project-list.component';
 import { ProjectComponent } from './components/project/project.component';
 
+// Services.
+import { ProjectDataService } from '../app/services/project-data.service';
+
 // Route list
 const appRoutes: Routes = [
   { path: '', component: AboutComponent },
@@ -39,7 +42,9 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [
+    ProjectDataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

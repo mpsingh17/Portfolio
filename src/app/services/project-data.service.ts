@@ -7,12 +7,12 @@ export class ProjectDataService {
     {
       name: 'Vidly',
       description: 'I made it using ASP.NET MVC5',
-      imagePath: '/images/something.png'
+      imagePath: '/assets/imgs/vidly.png'
     },
     {
       name: 'Portfolio',
       description: 'I made it using AngularJS',
-      imagePath: '/images/something.png'
+      imagePath: '/assets/imgs/billuSilkStore.png'
     }
   ];
 
