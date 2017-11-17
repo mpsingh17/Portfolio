@@ -11,6 +11,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
+import { ProjectComponent } from './components/project/project.component';
 
 // Route list
 const appRoutes: Routes = [
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     ExperienceComponent,
     EducationComponent,
     CertificatesComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
