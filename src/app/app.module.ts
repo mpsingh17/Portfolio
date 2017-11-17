@@ -10,6 +10,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
+import { ProjectListComponent } from './components/project-list/project-list.component';
 
 // Route list
 const appRoutes: Routes = [
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    ProjectListComponent
   ],
   imports: [
     BrowserModule,
