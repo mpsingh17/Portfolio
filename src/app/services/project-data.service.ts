@@ -27,6 +27,6 @@ export class ProjectDataService {
 
   // Get single project based on ID.
   getSingleProject(id: number) {
-    return this.projects[id];
+    return this.projects[id - 1];
   }
 }

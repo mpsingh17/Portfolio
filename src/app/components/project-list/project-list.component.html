@@ -1,7 +1,7 @@
 <div class="container mt-sm-5">
   <h2 class="mb-5 text-primary">Projects</h2>
   <div class="row">
-    <div class="col-sm-4 mr-sm-3 card" *ngFor="let project of projects">
+    <div class="col-sm-3 mr-sm-3 card" *ngFor="let project of projects">
       <img src="{{ project.imagePath }}" alt="Avatar" id="projectImage">
       <div class="container mt-sm-3">
         <h4>
@@ -13,3 +13,5 @@
     </div>
   </div>
 </div>
+
+<app-project *ngFor="let project of projects" [project]="project"></app-project>
