@@ -24,4 +24,9 @@ export class ProjectDataService {
   getAllProjects() {
     return this.projects;
   }
+
+  // Get single project based on ID.
+  getSingleProject(id: number) {
+    return this.projects[id];
+  }
 }

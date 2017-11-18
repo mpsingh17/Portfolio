@@ -10,7 +10,7 @@ export class ProjectListComponent implements OnInit {
   projects: any[];
 
   constructor(
-    public projectDataService: ProjectDataService
+    private projectDataService: ProjectDataService
   ) { }
 
   ngOnInit() {
