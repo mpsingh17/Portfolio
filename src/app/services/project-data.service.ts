@@ -5,11 +5,13 @@ import { Project } from '../models/Project';
 export class ProjectDataService {
   projects: Project[] = [
     {
+      id: 1,
       name: 'Vidly',
       description: 'I made it using ASP.NET MVC5',
       imagePath: '/assets/imgs/vidly.png'
     },
     {
+      id: 2,
       name: 'Billu Silk Store',
       description: 'I made it using AngularJS',
       imagePath: '/assets/imgs/billuSilkStore.png'
