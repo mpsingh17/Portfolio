@@ -7,7 +7,6 @@ import { Project } from '../../models/Project';
   styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
-  id: number;
   @Input('project') project: Project;
 
   constructor() { }
