@@ -10,7 +10,7 @@ export class ProjectDataService {
       imagePath: '/assets/imgs/vidly.png'
     },
     {
-      name: 'Portfolio',
+      name: 'Billu Silk Store',
       description: 'I made it using AngularJS',
       imagePath: '/assets/imgs/billuSilkStore.png'
     }
