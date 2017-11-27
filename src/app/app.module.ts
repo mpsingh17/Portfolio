@@ -12,10 +12,10 @@ import { EducationComponent } from './components/education/education.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
 import { ProjectComponent } from './components/project/project.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 // Services.
 import { ProjectDataService } from '../app/services/project-data.service';
-import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 // Route list
 const appRoutes: Routes = [
@@ -25,7 +25,8 @@ const appRoutes: Routes = [
   { path: 'education', component: EducationComponent },
   { path: 'certificates', component: CertificatesComponent },
   { path: 'projects', component: ProjectListComponent },
-  { path: 'projects/:id', component: ProjectComponent }
+  { path: 'projects/:id', component: ProjectComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
