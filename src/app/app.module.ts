@@ -11,7 +11,6 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
-import { ProjectComponent } from './components/project/project.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 // Services.
@@ -25,7 +24,6 @@ const appRoutes: Routes = [
   { path: 'education', component: EducationComponent },
   { path: 'certificates', component: CertificatesComponent },
   { path: 'projects', component: ProjectListComponent },
-  { path: 'projects/:id', component: ProjectComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -39,7 +37,6 @@ const appRoutes: Routes = [
     EducationComponent,
     CertificatesComponent,
     ProjectListComponent,
-    ProjectComponent,
     PageNotFoundComponent
   ],
   imports: [
