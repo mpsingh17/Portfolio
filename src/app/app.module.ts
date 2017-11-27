@@ -15,6 +15,7 @@ import { ProjectComponent } from './components/project/project.component';
 
 // Services.
 import { ProjectDataService } from '../app/services/project-data.service';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 // Route list
 const appRoutes: Routes = [
@@ -37,7 +38,8 @@ const appRoutes: Routes = [
     EducationComponent,
     CertificatesComponent,
     ProjectListComponent,
-    ProjectComponent
+    ProjectComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
