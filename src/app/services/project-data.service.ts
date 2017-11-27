@@ -17,6 +17,13 @@ export class ProjectDataService {
       description: 'This app is built with MVC5 for a cloth shop and can be converted to eStore...',
       imagePath: '/assets/imgs/billuSilkStore.png',
       projectURL: 'https://github.com/mpsingh17/SilkBStore'
+    },
+    {
+      id: 3,
+      name: 'Client Panel',
+      description: 'This app is built with AngularJS 4 for managing clients and their details...',
+      imagePath: '/assets/imgs/clientPanel.png',
+      projectURL: 'https://github.com/mpsingh17/clientpanel'
     }
   ];
 
